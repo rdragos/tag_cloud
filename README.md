@@ -14,7 +14,7 @@ Usage
 =====
 
 	$ python main.py num_seconds num_words stopwords_path
-	$ One should replace the appropriate Twitter credential keys the TwitterData constructor
+	$ One should replace the appropriate Twitter credential keys in the TwitterData constructor
 
 Example
 ========
