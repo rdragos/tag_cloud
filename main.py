@@ -102,7 +102,6 @@ def main():
             r.zincrby('word_counts', word, 1)
     top_words = []
     other_count = 0
-    print(r.keys('*'))
 
     for item in r.zrevrangebyscore('word_counts', 10**100, 0,withscores=True):
         if num_requested_words > 0:
