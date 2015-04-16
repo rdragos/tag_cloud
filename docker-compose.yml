@@ -1,0 +1,11 @@
+web:
+  build: .
+  command: python main.py 4.0 10 stopwords.txt
+  links:
+   - db
+  ports:
+   - "6379:8000"
+  volumes:
+   - .:/code
+db:
+  image: redis

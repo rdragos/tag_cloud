@@ -23,5 +23,11 @@ Example
 
 	$ python main.py 3.0 5 stopwords.txt
 
+After Docker
+============
+    Replace your Twitter credentials in keys.json file. Then run
+
+    $ docker compose up
+
 
 
