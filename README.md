@@ -14,18 +14,11 @@ Usage
 =====
 
 	$ python main.py num_seconds num_words stopwords_path
-	$ One should replace the appropriate Twitter credential keys in the TwitterData constructor
-
-Example
-========
-
-	Retrieves the top 5 words from tweets within the last 3 seconds considering the stopwords located at stopwords.txt
-
-	$ python main.py 3.0 5 stopwords.txt
 
 After Docker
 ============
     Replace your Twitter credentials in keys.json file. Then run
+
 
     $ docker compose up
 
